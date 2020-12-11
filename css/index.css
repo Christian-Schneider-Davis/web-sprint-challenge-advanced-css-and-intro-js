@@ -134,3 +134,22 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* my code starts here */
+
+@media (max-width: 500px) {
+    .artists-container {
+      width: 100%;
+      height: auto;
+      border: 1px solid black;
+      flex-direction: column;
+      justify-content: space-around;
+      justify-content: center;
+      align-items: center;
+      padding: 3% 
+    }
+  }
+
+  
+
+
