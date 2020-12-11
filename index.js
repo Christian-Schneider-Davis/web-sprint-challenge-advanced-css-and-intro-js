@@ -290,9 +290,11 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array, id, name, years, genre, nationality, bio){
+    array.push ({id, name, years, genre, nationality, bio})
+    return array;
   }
+  console.log(addArtist(artists, "20", "Christian", "1991 - 2020", "Web Design", "American", "Died from info overload" ));
 
   
 
