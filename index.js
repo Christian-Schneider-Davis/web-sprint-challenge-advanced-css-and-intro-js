@@ -212,16 +212,13 @@ console.log(artists[0].name);
 //(2) Bio of the third artist (2nd index) in the array 
 console.log(artists[2].bio);
 
-
-/* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
+/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. 
-
-// with out function ?? :(
+// with out function ?? :( */
 artists[8].name = "Vincent Van Gogh";
-
 console.log(artists[8].name);
-*/
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
@@ -234,7 +231,6 @@ console.log(artists[8].name);
  function getArtistByIndex(id,name) {
   return  "The artist at index " + id + "is " + name;
 }  
-
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -302,7 +298,7 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(hundredClub){
+function lotsOfArt(names,paintings){
   let hundredClub = artists.length
   if (hundredClub.paintings > 100){
     return artists.name
