@@ -1,4 +1,4 @@
-export const artists = [
+const artists = [
     {
       "id": 0,
       "name": "Amedeo Modigliani",
@@ -231,11 +231,8 @@ console.log(artists[8].name);
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(num,oldGuy) {
-  let museum = num[oldGuy];
-  let num = museum.num;
-  let oldGuy = museum.oldGuy;
-  return  "The artist at index " + num + "is " + oldGuy;
+function getArtistByIndex(id,name) {
+  return  "The artist at index " + id + "is " + name;
 }  
 
 
@@ -270,7 +267,7 @@ function get20s(boomersAge){
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(kicked){
-  .pop
+  
 }
    
 
