@@ -219,7 +219,6 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
 artists[8].name = "Vincent Van Gogh";
 console.log(artists[8].name);
 
-
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
  1. Receive an array
@@ -265,7 +264,9 @@ function get20s(updatedList){
 function removeArtist(kicked){
   
 }
-   
+   /* artists.length
+    .pop
+   return artist.length
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
